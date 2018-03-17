@@ -14,6 +14,8 @@
 		FFFDC7CE205D9193006515C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFDC7CC205D9193006515C4 /* LaunchScreen.storyboard */; };
 		FFFDC7D9205D9193006515C4 /* ReadMoreDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC7D8205D9193006515C4 /* ReadMoreDemoTests.swift */; };
 		FFFDC7E4205D9193006515C4 /* ReadMoreDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC7E3205D9193006515C4 /* ReadMoreDemoUITests.swift */; };
+		FFFDC7F2205D9438006515C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC7F1205D9438006515C4 /* TableViewCell.swift */; };
+		FFFDC7F8205DA6E8006515C4 /* ExpandableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC7F7205DA6E8006515C4 /* ExpandableLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FFFDC7DF205D9193006515C4 /* ReadMoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadMoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFDC7E3205D9193006515C4 /* ReadMoreDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreDemoUITests.swift; sourceTree = "<group>"; };
 		FFFDC7E5205D9193006515C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFDC7F1205D9438006515C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FFFDC7F7205DA6E8006515C4 /* ExpandableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		FFFDC7C2205D9193006515C4 /* ReadMoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FFFDC7F7205DA6E8006515C4 /* ExpandableLabel.swift */,
 				FFFDC7C3205D9193006515C4 /* AppDelegate.swift */,
 				FFFDC7C5205D9193006515C4 /* ViewController.swift */,
+				FFFDC7F1205D9438006515C4 /* TableViewCell.swift */,
 				FFFDC7C7205D9193006515C4 /* Main.storyboard */,
 				FFFDC7CA205D9193006515C4 /* Assets.xcassets */,
 				FFFDC7CC205D9193006515C4 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFDC7F2205D9438006515C4 /* TableViewCell.swift in Sources */,
 				FFFDC7C6205D9193006515C4 /* ViewController.swift in Sources */,
+				FFFDC7F8205DA6E8006515C4 /* ExpandableLabel.swift in Sources */,
 				FFFDC7C4205D9193006515C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
